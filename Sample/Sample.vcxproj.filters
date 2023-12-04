@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\shaders">
+      <UniqueIdentifier>{9877eb3d-beee-4e85-830a-40faa90763bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\textures">
+      <UniqueIdentifier>{c3cd0052-9149-41c0-9b38-2a7f7324e6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\levels">
+      <UniqueIdentifier>{423fc308-fee9-477b-8f78-6771c6c7cdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\fonts">
+      <UniqueIdentifier>{779a8c17-bc97-44cb-a5e8-6aecf69dd383}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_manager.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_renderer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_level.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ball_object.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="post_processor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="power_up.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="text_renderer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.hpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_level.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ball_object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_generator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="post_processor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="text_renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\block.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\block_solid.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\background.jpg">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\paddle.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\awesomeface.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\particle.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\powerup_chaos.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\powerup_confuse.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\powerup_increase.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\powerup_passthrough.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\powerup_speed.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\powerup_sticky.png">
+      <Filter>资源文件\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="levels\four.lvl">
+      <Filter>资源文件\levels</Filter>
+    </None>
+    <None Include="levels\one.lvl">
+      <Filter>资源文件\levels</Filter>
+    </None>
+    <None Include="levels\three.lvl">
+      <Filter>资源文件\levels</Filter>
+    </None>
+    <None Include="levels\two.lvl">
+      <Filter>资源文件\levels</Filter>
+    </None>
+    <None Include="particle_generator.hpp">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="shaders\sprite.frag">
+      <Filter>资源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\sprite.vert">
+      <Filter>资源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\particle.frag">
+      <Filter>资源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\particle.vert">
+      <Filter>资源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\post_processing.frag">
+      <Filter>资源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\post_processing.vert">
+      <Filter>资源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\text_2d.frag">
+      <Filter>资源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\text_2d.vert">
+      <Filter>资源文件\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\OCRAEXT.TTF">
+      <Filter>资源文件\fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
